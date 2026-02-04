@@ -76,7 +76,7 @@ export default function AdminTabsLayout() {
         screenOptions={{
           tabBarStyle: {
             position: 'absolute',
-            backgroundColor: '#323338',
+            backgroundColor: '#ffffff',
             borderTopWidth: 0,
             elevation: 5,
             height: 70,
@@ -89,7 +89,7 @@ export default function AdminTabsLayout() {
           },
           tabBarShowLabel: true,
           headerStyle: {
-            backgroundColor: '#1a1a1a',
+            backgroundColor: '#ffffff',
             elevation: 0,
             shadowOpacity: 0,
           },
@@ -286,7 +286,7 @@ const styles = StyleSheet.create({
     fontFamily: 'Poppins-Regular',
     fontSize: 18,
     marginLeft: 6,
-    color: '#ffffff',
+    color: '#000',
   },
   appSubText: {
     fontFamily: 'Poppins-Regular',

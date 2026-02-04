@@ -412,7 +412,7 @@ const DataScreen = () => {
 export default DataScreen;
 
 const styles = StyleSheet.create({
-  container: { flex: 1, backgroundColor: '#1a1a1a', },
+  container: { flex: 1, backgroundColor: '#ffffff', },
   scrollContent: { alignItems: 'center', paddingTop: 30, paddingBottom: 100 },
   title: {
     fontSize: 18,

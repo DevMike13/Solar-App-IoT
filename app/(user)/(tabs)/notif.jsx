@@ -136,7 +136,7 @@ const Notif = () => {
 export default Notif;
 
 const styles = StyleSheet.create({
-  container: { flex: 1, backgroundColor: '#1a1a1a' },
+  container: { flex: 1, backgroundColor: '#ffffff' },
   item: {
     backgroundColor: '#242328',
     padding: 15,

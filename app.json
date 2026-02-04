@@ -22,8 +22,7 @@
         "backgroundColor": "#ffffff"
       },
       "edgeToEdgeEnabled": true,
-      "package": "com.hymike.solar",
-      "googleServicesFile" : "./google-services.json"
+      "package": "com.hymike.solar"
     },
     "web": {
       "favicon": "./assets/favicon.png"
