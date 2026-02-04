@@ -1,8 +1,8 @@
 {
   "expo": {
-    "name": "BMS",
-    "slug": "PUPApp",
-    "scheme": "pupapp",
+    "name": "Solar",
+    "slug": "solar",
+    "scheme": "solar",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
@@ -22,7 +22,7 @@
         "backgroundColor": "#ffffff"
       },
       "edgeToEdgeEnabled": true,
-      "package": "com.hymike.pupapp",
+      "package": "com.hymike.solar",
       "googleServicesFile" : "./google-services.json"
     },
     "web": {
