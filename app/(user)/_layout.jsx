@@ -142,7 +142,7 @@ export default function AdminTabsLayout() {
               <View
                 style={{
                   backgroundColor: focused ? '#007AFF' : 'transparent',
-                  width: 80,
+                  width: 60,
                   height: 60,
                   borderRadius: 30,
                   justifyContent: 'center',
@@ -150,7 +150,7 @@ export default function AdminTabsLayout() {
                 }}
               >
                 <Ionicons
-                  name={focused ? 'radio' : 'radio-outline'}
+                  name={focused ? 'home' : 'home-outline'}
                   size={26}
                   color={focused ? '#fff' : '#999'}
                 />
@@ -159,13 +159,61 @@ export default function AdminTabsLayout() {
           }}
         />
         <Tabs.Screen
+          name="(tabs)/control"
+          options={{
+            tabBarIcon: ({ focused }) => (
+              <View
+                style={{
+                  backgroundColor: focused ? '#007AFF' : 'transparent',
+                  width: 60,
+                  height: 60,
+                  borderRadius: 30,
+                  justifyContent: 'center',
+                  alignItems: 'center',
+                }}
+              >
+                <Ionicons
+                  name={focused ? 'options' : 'options-outline'}
+                  size={30}
+                  color={focused ? '#fff' : '#999'}
+                />
+              </View>
+            ),
+          }}
+        />
+
+        <Tabs.Screen
+          name="(tabs)/setting"
+          options={{
+            tabBarIcon: ({ focused }) => (
+              <View
+                style={{
+                  backgroundColor: focused ? '#007AFF' : 'transparent',
+                  width: 60,
+                  height: 60,
+                  borderRadius: 30,
+                  justifyContent: 'center',
+                  alignItems: 'center',
+                }}
+              >
+                <Ionicons
+                  name={focused ? 'cog' : 'cog-outline'}
+                  size={30}
+                  color={focused ? '#fff' : '#999'}
+                />
+              </View>
+            ),
+          }}
+        />
+
+        <Tabs.Screen
           name="(tabs)/data"
           options={{
             tabBarIcon: ({ focused }) => (
               <View
                 style={{
                   backgroundColor: focused ? '#007AFF' : 'transparent',
-                  width: 80,
+                  width: 60,
                   height: 60,
                   borderRadius: 30,
                   justifyContent: 'center',
@@ -181,13 +229,14 @@ export default function AdminTabsLayout() {
             ),
           }}
         />
+
         <Tabs.Screen
-          name="(tabs)/notif"
+          name="(tabs)/system"
           options={{
             tabBarIcon: ({ focused }) => (
               <View
                 style={{
-                  width: 80,
+                  width: 60,
                   height: 60,
                   borderRadius: 30,
                   justifyContent: 'center',
@@ -197,7 +246,7 @@ export default function AdminTabsLayout() {
                 }}
               >
                 <Ionicons
-                  name={focused ? 'notifications' : 'notifications-outline'}
+                  name={focused ? 'construct' : 'construct-outline'}
                   size={28}
                   color={focused ? '#fff' : '#999'}
                 />
