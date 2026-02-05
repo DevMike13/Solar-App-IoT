@@ -108,7 +108,7 @@ export default function AdminTabsLayout() {
                 resizeMode='contain'
               /> */}
               <Text style={styles.appNameText}>Hi, User</Text>
-              <Text style={styles.appSubText}>Welcome to your Biogas Monitoring System!</Text>
+              <Text style={styles.appSubText}>Welcome to your Solar Monitoring System!</Text>
             </View>
           ),
           headerRight: () => (
