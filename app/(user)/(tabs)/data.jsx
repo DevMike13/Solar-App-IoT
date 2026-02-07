@@ -155,7 +155,7 @@ const DataScreen = () => {
   return (
     <View style={styles.container}>
       <ScrollView contentContainerStyle={styles.scrollContent}>
-        <Text style={styles.title}>Temperature History</Text>
+        <Text style={styles.title}>History</Text>
 
         <View style={styles.rangeContainer}>
           {['1D', '2D', '3D', 'Custom'].map((r) => (
@@ -235,7 +235,7 @@ export default DataScreen;
 const styles = StyleSheet.create({
   container: { flex: 1, backgroundColor: '#ffffff' },
   scrollContent: { alignItems: 'center', paddingTop: 30, paddingBottom: 100 },
-  title: { fontSize: 18, fontFamily: 'Poppins-SemiBold', marginBottom: 10, color: '#fff' },
+  title: { fontSize: 40, fontFamily: 'Poppins-SemiBold', marginBottom: 10, color: '#000' },
   rangeContainer: { flexDirection: 'row', justifyContent: 'center', marginBottom: 10, flexWrap: 'wrap' },
   rangeButton: {
     paddingTop: 6,
